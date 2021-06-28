@@ -1,0 +1,14 @@
+
+.ProgressBar {
+  width: 100%;
+  height: 30px;
+  background: #eee;
+  margin-bottom: 10px;
+  border: 4px solid #eee;
+
+  > div {
+    background: #041027;
+    height: 100%;
+    transition: 0.5s width;
+  }
+}

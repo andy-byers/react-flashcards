@@ -1,0 +1,35 @@
+
+.Dropzone {
+  height: 30px;
+  display: inline-flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+
+  border-radius: 5px;
+  background: #eee;
+  color: #041027;
+  user-select: none;
+  transition: border .25s ease-in-out;
+  font-size: 1.3em;
+  font-weight: bold;
+
+  &:hover {
+    filter: brightness(95%);
+  }
+
+  &:active {
+    filter: brightness(90%);
+  }
+
+  > span {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  > svg {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+}
